@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--white: #ffffff;
+	--black: #333333;
+
+	--gray-light: #bcbcbc;
+	--gray: #717171;
+	--gray-dark: #636262;
+
+	--lightgray: #f8f5f4;
+	--lightgray-dark: #eeebea;
+
+	--blue: #02476c;
+	--green: #00878a;
+
+	--serif: 'Tiempos Headline', Georgia, 'Times New Roman', Times, serif;
+	--sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  --sans: var(--sans-serif);
+
+	/*
+  https://type-scale.com/
+	Base: 19.2px
+	Scale: 1.2 – Custom */
+	--pad-small: 7.72px;
+	--pad: 9.26px;
+	--xsmall: 11.11px;
+	--small: 14px; /* MODIFIED FROM: 13.33px; */
+	--medium: 16px;
+	--large: 19.2px;
+	--xlarge: 23.04px;
+	--huge: 27.65px;
+	--xhuge: 35.2px; /* MODIFIED FROM: 33.18px; */
+}
+
+.svelte-project,
+.svelte-project p,
+.svelte-project h1,
+.svelte-project h2,
+.svelte-project h3,
+.svelte-project h4,
+.svelte-project h5,
+.svelte-project h6 {
+	font-family: var(--sans);
+}
+/* TODO: more typographic defaults */
+
+.svelte-project {
+	color: var(--black);
+}
